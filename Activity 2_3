@@ -18,7 +18,7 @@ earth_age_bln += 0.1
 
 
 #In case of success, line below calculates necessary value value
-print ( earth_age_bl)
+print (earth_age_bln)
 
 
 #Example 1c
@@ -34,8 +34,52 @@ asia_wishlist = [
 
 #Example 2a
 
-msg = "life is beautiful"
-if msg == "I love you":
+
+msg = ("life is beautiful")   #Input line for text
+
+if (msg == "I love you"):    #logic check if msg is equal to specified value, then code is running.
     print ("propose")
 else:
     print ("wait xP")
+
+
+
+    #Example 2b
+
+net_earnings = (10.000.000) #Value definition
+if (net_earnings            #Logic command
+    >= 100.000.000):
+    print ("Large Cap")
+else:
+    print ("Small Cap")
+
+
+   # Example 3a
+
+   lst = [
+        "soccer", "swimming", 
+        "running", "skiing",
+        ]
+    if ("rock climbing" not in lst):
+        print ("boo"),
+
+    # Example 3b
+     web_data = ["techresearch and computervision"]
+    if "@" in web_data:
+        print ("e-mail address")
+    elif "0123456789" in web_data:
+        print ("phone number")
+    else:
+        print (not e-mail nor phone number)
+
+
+
+    #Example 4
+         a = 10+20
+         b = 100 - 1
+         c = 50 / 7
+         d = 50 // 7
+         e = 10 % 8
+         f = 5 ** 2
+
+        print (a,b,c,d,e,f, sep="\n ")
